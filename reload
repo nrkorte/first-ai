@@ -1,0 +1,6 @@
+git checkout main
+git branch -D nrkorte
+git remote update origin --prune
+git pull
+git branch nrkorte
+git checkout nrkorte
